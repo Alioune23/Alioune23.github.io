@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    animation-name: diapo;
+    background-size: cover;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+
+nav{
+    background-color: rgb(245, 172, 14);
+
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+ul li:hover a{
+    background-color: beige;
+    color: black;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+nav ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    margin-top:100px;
+}
+
+
+#foot{
+    background-color: coral;
+    margin: 500px;
+     margin-left: 20px;
+     margin-right: 60px;
+     margin-bottom: auto;
+    text-align: center;
+}
